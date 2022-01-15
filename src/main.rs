@@ -5,7 +5,7 @@ use mime::Mime;
 use reqwest::{header, Client, Response, Url};
 use std::{collections::HashMap, str::FromStr};
 
-/// A native httpie implementation with Rust, can you imagine how easy it is?
+/// A naive httpie implementation with Rust, can you imagine how easy it is?
 #[derive(Clap, Debug)]
 #[clap(version = "1.0", author = "Chao Li <l1ch4010@gmail.com>")]
 #[clap(setting = AppSettings::ColoredHelp)]
